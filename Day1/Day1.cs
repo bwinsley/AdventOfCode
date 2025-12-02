@@ -3,7 +3,7 @@ namespace AdventOfCode.Day1
 {
     public static class Day1
     {
-        public static void Execute()
+        public static void Part1()
         {
             string appDirectory = AppDomain.CurrentDomain.BaseDirectory;
             string filePath = Path.Combine(appDirectory, "../../../Day1/day1.txt");
@@ -29,9 +29,17 @@ namespace AdventOfCode.Day1
             Console.WriteLine($"Answer: {answer}");
 
             // Part 2
-            current = 50;
+            
+        }
+
+        public static void Part2()
+        {
+            string appDirectory = AppDomain.CurrentDomain.BaseDirectory;
+            string filePath = Path.Combine(appDirectory, "../../../Day1/day1.txt");
+
+            var current = 50;
             var previous = 50;
-            answer = 0;
+            var answer = 0;
             foreach (string line in File.ReadLines(filePath))
             {
                 previous = current;

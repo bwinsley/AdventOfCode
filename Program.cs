@@ -7,5 +7,6 @@ using AdventOfCode.Day5;
 using AdventOfCode.Day6;
 using AdventOfCode.Day7;
 using AdventOfCode.Day8;
+using AdventOfCode.Day9;
 
-Day8.Part2();
+Day9.Part2();

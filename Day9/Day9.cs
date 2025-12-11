@@ -230,7 +230,6 @@ namespace AdventOfCode.Day9
                 }
                 Console.WriteLine();
             }
-
         }
     }
 }
